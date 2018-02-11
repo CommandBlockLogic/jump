@@ -1,0 +1,1 @@
+{"jump":{"$func":["tick","tick"],"_init":{"$func":["gamerule","scb","init"]},"load":{"$func":["init","tick"]}},"std":{"$func":["load","tick"]}}

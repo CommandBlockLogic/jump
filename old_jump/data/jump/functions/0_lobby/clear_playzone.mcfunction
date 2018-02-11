@@ -1,0 +1,32 @@
+# jump:0_lobby/clear_playzone
+
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:1}] run fill -8 4 -8 24 4 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:2}] run fill -8 5 -8 24 5 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:3}] run fill -8 6 -8 24 6 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:4}] run fill -8 7 -8 24 7 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:5}] run fill -8 8 -8 24 8 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:6}] run fill -8 9 -8 24 9 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:7}] run fill -8 10 -8 24 10 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:8}] run fill -8 11 -8 24 11 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:9}] run fill -8 12 -8 24 12 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:10}] run fill -8 13 -8 24 13 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:11}] run fill -8 14 -8 24 14 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:12}] run fill -8 15 -8 24 15 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:13}] run fill -8 16 -8 24 16 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:14}] run fill -8 17 -8 24 17 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:15}] run fill -8 18 -8 24 18 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:16}] run fill -8 19 -8 24 19 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:17}] run fill -8 20 -8 24 20 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:18}] run fill -8 21 -8 24 21 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:19}] run fill -8 22 -8 24 22 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:20}] run fill -8 23 -8 24 23 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:21}] run fill -8 24 -8 24 24 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:22}] run fill -8 25 -8 24 25 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:23}] run fill -8 26 -8 24 26 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:24}] run fill -8 27 -8 24 27 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:25}] run fill -8 28 -8 24 28 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:26}] run fill -8 29 -8 24 29 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:27}] run fill -8 30 -8 24 30 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:28}] run fill -8 31 -8 24 31 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:29}] run fill -8 32 -8 24 32 24 air
+execute as @e[limit=1,tag=clear_playzone,type=area_effect_cloud,nbt={Age:30}] run fill -8 33 -8 24 33 24 air

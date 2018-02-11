@@ -1,0 +1,1 @@
+[["fallingTimer","dummy","init:scb.mcfunction"],["ingame","dummy","init:scb.mcfunction"],["dieIngame","deathCount","init:scb.mcfunction"],["maxHeight","dummy","init:scb.mcfunction"],["currentHeight","dummy","init:scb.mcfunction"],["CONST","dummy","init:scb.mcfunction"],["random_color","dummy","jump:_init/scb.mcfunction"],["playing","dummy","jump:_init/scb.mcfunction"]]

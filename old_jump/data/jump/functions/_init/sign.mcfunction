@@ -1,0 +1,5 @@
+# jump:_init/sign
+setblock 17 2 10 minecraft:sign[rotation=8]{Text1:"{\"text\":\">通关模式<\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock 17 2 11 redstone_block\"}}",Text2:"{\"text\":\"苟模式\"}",Text3:"{\"text\":\"一分钟限时\"}",Text4:"{\"text\":\"\"}"}
+setblock 8 128 12 minecraft:sign[rotation=8]{Text1:"{\"text\":\">通关模式<\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock 17 2 11 redstone_block\"}}",Text2:"{\"text\":\"苟模式\"}",Text3:"{\"text\":\"一分钟限时\"}",Text4:"{\"text\":\"\"}"}
+setblock 18 2 10 minecraft:sign[rotation=8]{Text1:"{\"text\":\"通关模式\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock 18 2 11 redstone_block\"}}",Text2:"{\"text\":\">苟模式<\"}",Text3:"{\"text\":\"一分钟限时\"}",Text4:"{\"text\":\"\"}"}
+setblock 19 2 10 minecraft:sign[rotation=8]{Text1:"{\"text\":\"通关模式\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock 19 2 11 redstone_block\"}}",Text2:"{\"text\":\"苟模式\"}",Text3:"{\"text\":\">一分钟限时<\"}",Text4:"{\"text\":\"\"}"}
