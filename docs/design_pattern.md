@@ -91,28 +91,3 @@ execute if 条件... run function bla:function1_internal
 ## 主系统构成
 
 系统主要建**基于接口以及约定**。主系统提供了**流程处理**以及**默认机制**，用户可以使用数据包来替换机制、增加功能，从而扩展系统。但是那些数据包必须遵从主系统的约定，否则可能会出现未知错误。
-
-```mermaid
-sequenceDiagram
-    participant main as 主系统
-    participant map as 地图系统
-    participant props as 道具系统
-    participant modes as 模式系统
-    main->>map: 游戏回合完结（返回大厅，要求Map部分处理大厅功能）
-    activate map
-    map-->>main: 游戏回合开始（进入地图）
-    deactivate map
-    activate main
-    main->>props: 要求给予道具
-    activate props
-    props-->>main: （生成道具）
-    deactivate props
-    main->>props: 处理道具使用（如有）
-    main->>modes: 检查有否胜出/失败
-    activate modes
-    modes-->>main: 某玩家胜出/全部玩家失败（+胜出/失败信息）
-    deactivate modes
-    deactivate main
-
-```
-

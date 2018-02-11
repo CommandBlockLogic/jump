@@ -62,6 +62,30 @@ function #(namespace):load
         如果不用高频而是使用Advancement作为检测，则应检测当前 `#state.misc` 是否为2以决定是否执行。
     * `(命名空间):delete`: 与模式系统类似。
 
+```mermaid
+sequenceDiagram
+    participant main as 主系统
+    participant map as 地图系统
+    participant props as 道具系统
+    participant modes as 模式系统
+    main->>map: 游戏回合完结（返回大厅，要求Map部分处理大厅功能）
+    activate map
+    map-->>main: 游戏回合开始（进入地图）
+    deactivate map
+    activate main
+    main->>props: 要求给予道具
+    activate props
+    props-->>main: （生成道具）
+    deactivate props
+    main->>props: 处理道具使用（如有）
+    main->>modes: 检查有否胜出/失败
+    activate modes
+    modes-->>main: 某玩家胜出/全部玩家失败（+胜出/失败信息）
+    deactivate modes
+    deactivate main
+
+```
+
 ## 分数、假名
 * `playmode`: 玩家模式，1为玩家，2为旁观者
 * `height`: 玩家当前高度
@@ -89,3 +113,4 @@ function #(namespace):load
         * `4`: 最高高度达到某水平派发物品
     * `#item_time`: 每多少秒派发一次物品
     * `#item_height`: 每多少格派发一次物品
+
